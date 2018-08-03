@@ -1,0 +1,64 @@
+
+body{
+  background-image:  url("http://publicdomainpictures.net/pictures/230000/velka/fence-panels-rose-pink-wood.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Dancing Script";
+
+}
+
+#head{
+  font-size: 150px;
+  color:#09234c;
+}
+
+
+#quote{
+  font-size: 80px;
+  color:#09234c;
+}
+
+#author{
+  font-size: 70px;
+  color:#09234c;
+}
+
+button{
+  background:#09234c;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:80px;
+  width:200px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#6699ff;
+  color:#09234c;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background:#09234c;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}

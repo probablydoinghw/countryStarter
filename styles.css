@@ -1,0 +1,42 @@
+* {
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 30px;
+
+  color: #FDFEFE;
+  background-color: #FEAEC0;
+  font-family: Arial;
+  font-weight: 100;
+
+}
+
+
+
+.Favorites {
+  width: 100%;
+  float: left;
+  display: inline-block;
+
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: #FF6B9A;
+}
+
+h3 {
+  margin-left: 70px;
+}
+
+div{
+  width: 50%;
+}
+
+img{
+
+  width: 40%;
+  height: 50%;
+
+}
