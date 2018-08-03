@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script scr="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL" type="text/javascript">
+
+    </script>
+    <title>~Draw It~</title>
+
+  </head>
+  <body>
+    <div class="demo-card-wide mdl-card mdl-shadow--2d" id="main">
+      <h3 class="mdl-card__title-text">~Draw It~</h3>
+    </div>
+    <div id="paint">
+      <canvas id="canvas" width="300" height="300"></canvas>
+    </div>
+    <div class="tool">
+      <form class="form-inline">
+        <label>Paint Tool &nbsp;</label>
+        <select id="type">
+          <option value="LineString">Line</option>
+          <option value="Polygon">Shape</option>
+          <option value="Circle">Circle</option>
+          <option value="None">Move the Screen Around</option>
+        </select>
+      </form>
+      <script>
+        import Draw from 'ol/interaction/Draw.js';
+      </script>
+
+    </div>
+    <link rel="stylesheet" href="https://openlayers.org/en/v5.0.3/css/ol.css" type="text/css">
+  </body>
+</html>
